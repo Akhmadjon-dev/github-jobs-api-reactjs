@@ -20,7 +20,6 @@ export default function Job({job}) {
                         </Card.Subtitle>
                         <Badge className="mr-3" variant="secondary">{job.type}</Badge>
                         <Badge variant="secondary">{job.location}</Badge>
-                        <Badge variant="secondary">{job.title}</Badge>
                         <div>
                             <ReactMark source={job.how_to_apply}/>
                         </div>
